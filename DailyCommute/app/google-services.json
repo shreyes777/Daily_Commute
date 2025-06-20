@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "31905731514",
+    "firebase_url": "https://daily-commute-app1-default-rtdb.firebaseio.com",
+    "project_id": "daily-commute-app1",
+    "storage_bucket": "daily-commute-app1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31905731514:android:af639133348d89bbce0383",
+        "android_client_info": {
+          "package_name": "com.example.dailycommute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31905731514-02qf0oj5mocfjluj6vr2olb3nss97uer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dailycommute",
+            "certificate_hash": "dc5ad7d75f89cc9cb01310b14b586f0b799aba40"
+          }
+        },
+        {
+          "client_id": "31905731514-m362e2ggi9t234mp8r5ecnd2llm2rikn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJMSwXi_tVThtvsIQuttUpSelXx9AgctQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31905731514-m362e2ggi9t234mp8r5ecnd2llm2rikn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

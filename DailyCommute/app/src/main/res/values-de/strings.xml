@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComRoute</string>
+    <string name="theme">Thema</string>
+    <string name="currency">Währung</string>
+    <string name="distance_unit">Entfernungseinheit</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="offers">Angebote</string>
+    <string name="language">Sprache</string>
+    <string name="email_verification">E-Mail-Verifizierung</string>
+    <string name="phone_verification">Telefonverifizierung</string>
+    <string name="select_option">Auswählen</string>
+
+</resources>

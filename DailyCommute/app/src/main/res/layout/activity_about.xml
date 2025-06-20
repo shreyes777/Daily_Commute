@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="16dp"
+        android:gravity="center_horizontal">
+
+    <!-- Toolbar Section -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:text="Welcome to ComRoute – your smart companion for a smoother, more efficient daily commute!\n\nComRoute is designed to simplify your everyday travel by helping you plan the best routes with real-time insights. Whether you're heading to work, college, or anywhere in between, ComRoute ensures you get there faster and smarter.\n\nWhy Choose ComRoute?\n\nOur app takes the guesswork out of commuting. By combining real-time traffic updates, live public transport data, and accurate travel time estimates, ComRoute helps you make informed decisions before you even step out the door.\n\nKey Features:\n\n• Live Traffic Updates – Stay ahead of the rush with up-to-date traffic conditions.\n• Public Transport Options – View nearby bus, train, and metro options with real-time arrival info.\n• Estimated Travel Times – Know how long your trip will take based on current conditions.\n• Save Your Routes – Access your most-used routes instantly with just a tap.\n• Commute Trends – Discover patterns in your travel time and get personalized insights.\n• Smart Notifications – Get alerts for delays, congestion, and the best times to leave.\n\nMade for Daily Commuters\n\nComRoute is built with your daily routine in mind. Whether you're a student, a working professional, or someone who just wants a hassle-free trip, ComRoute gives you the tools to plan smarter and travel better.\n\nSay goodbye to traffic surprises and missed buses — with ComRoute, you're always in control of your commute.\n\nDownload ComRoute today and take the stress out of your journey!" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

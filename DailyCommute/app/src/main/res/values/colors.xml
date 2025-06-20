@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_primary">#6200EE</color>
+    <color name="my_primary_variant">#3700B3</color>
+    <color name="my_on_primary">#FFFFFF</color>
+    <color name="my_secondary">#03DAC6</color>
+    <color name="my_secondary_variant">#018786</color>
+    <color name="my_on_secondary">#000000</color>
+    <color name="my_background">#FFFFFF</color>
+    <color name="my_surface">#FFFFFF</color>
+    <color name="my_on_surface">#000000</color>
+    <color name="my_error">#B00020</color>
+    <color name="my_on_error">#FFFFFF</color>
+    <color name="my_text_color">#FFFFFF</color>
+    <color name="button_background_light">#FF6200EE</color>
+    <color name="button_background_dark">#3700B3</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_icon">#000000</color>
+    <color name="bottom_nav_light">#FFFFFF</color>
+    <color name="bottom_nav_dark">#121212</color> <!-- Dark mode background -->
+    <color name="mainbutton_back">#FFFFFF</color>
+    <color name="mainbutton_icon">#000000</color>
+<color name="button_back">#6072FF</color>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_background_light">#3700B3</color>
+    <color name="button_background_dark">#FF6200EE</color>
+    <color name="bottom_nav_background">#121212</color>
+    <color name="bottom_nav_icon">#FFFFFF</color>
+    <color name="mainbutton_back">#121212</color>
+    <color name="mainbutton_icon">#000000</color>
+</resources>
